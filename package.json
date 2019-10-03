@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "mocha test/tests.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Eric Mittelhammer <emittelhammer@newrelic.com>",
   "license": "ISC",
@@ -16,9 +18,11 @@
     "@newrelic/koa": "^2.0.0",
     "koa": "^2.5.2",
     "koa-router": "^7.4.0",
-    "newrelic": "^5.10.0"
+    "newrelic": "^5.10.0",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
-  }
+  },
+  "snyk": true
 }
