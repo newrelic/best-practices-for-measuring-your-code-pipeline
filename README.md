@@ -1,5 +1,5 @@
 # Code Pipeline Webinar Demo App
-This is the example code that is a companion to New Relic's [Best Practices for Measuring Your Code Pipeline Webinar](https://newrelic.com/webinar/best-practices-code-pipeline-180912)
+This is the example code that is a companion to New Relic's [Best Practices for Measuring Your Code Pipeline Webinar](https://newrelic.com/blog/best-practices/measuring-code-pipeline-best-practices-webinar)
 
 It contains a simple service written in Node.js as well as all of the "glue code" and event handlers you'll need to push data from GitHub and AWS to New Relic.
 
